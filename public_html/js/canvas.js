@@ -66,6 +66,9 @@ grd.addColorStop(1,"white");
 
 // Fill with gradient
 ctx.fillStyle=grd;
+
+//ctx.arc(100, 150, 150, 0, 2*Math.PI);
+
 ctx.fillRect(10,10,150,80);
 
 //Fill with gradient
